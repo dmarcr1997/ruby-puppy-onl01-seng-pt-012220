@@ -10,6 +10,7 @@ class Dog
   
   def self.all
     @@all
+    save
   end
   def self.print_all
     @@all.each do |dog|
@@ -18,6 +19,5 @@ class Dog
   end
   def self.save
     @@all << self
-    
-  
+  end
 end
