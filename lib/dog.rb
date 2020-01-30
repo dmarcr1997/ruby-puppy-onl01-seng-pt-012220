@@ -3,7 +3,7 @@ class Dog
   @@all = []
   attr_accessor :name
   
-  def self.save
+  def save
     @@all << self
   end
   def self.clear_all
