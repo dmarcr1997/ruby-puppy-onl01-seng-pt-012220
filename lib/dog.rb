@@ -3,8 +3,8 @@ class Dog
   @@all = []
   attr_accessor :name
   
-  def self.save(dog)
-    @@all << dog
+  def self.save
+    @@all << self
   end
   
   def initialize(name)
